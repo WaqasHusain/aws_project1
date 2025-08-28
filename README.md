@@ -9,4 +9,12 @@ Briefly below steps need to be performed, and necessary files index.html, styles
 
 This project can be completed staying within AWS free tier.
 
-A user will be able to access a static website hosted in S3 bucket, and view and create events lists, also user can subscribe to event notification list. API will be handling back end processing.
+A user will be able to access a static website hosted in S3 bucket, and view and create events lists, also user can subscribe to event notification list. Lambda functions will be handling back end processing.
+
+Services Used are mentioned below:
+
+AWS S3: Host the frontend and store event data in a JSON file.
+AWS SNS: Manage email subscriptions and send event notifications.
+AWS Lambda: Handle backend logic for creating events and managing subscriptions.
+AWS API Gateway: Provide endpoints for frontend to communicate with backend services.
+IAM Roles & Policies: Secure access to AWS resources like S3 and SNS.
