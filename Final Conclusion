@@ -1,0 +1,27 @@
+Conclusion
+This project focused on creating a complete event announcement system on AWS, enabling real-time communication with subscribers through a serverless architecture.
+
+Key highlights:
+# Hosted a static website on Amazon S3 to serve as the user interface.
+# Built Lambda functions to process subscriptions and create events.
+# Used Amazon API Gateway to securely expose backend endpoints.
+# Leveraged Amazon SNS for efficient, scalable email notifications.
+
+By completing this project, you gained hands-on experience in serverless web application development and event-driven architectures using AWS services.
+Clean-up
+1. Delete S3 Bucket
+    - Empty the bucket and delete it.
+    - Delete the bucket.
+
+2. Delete Lambda Functions:
+- Navigate to Lambda and delete the functions (`SubscribeToSNSFunction`, `createEventFunction`).
+
+3. Delete API Gateway:
+- Delete the API created for `/subscribe` and `/create-event` endpoints.
+
+4. Delete SNS Topic:
+- Delete the `EventAnnouncements` SNS topic and its subscriptions.
+
+5. Remove IAM Roles:
+- Detach any policies from the IAM roles.
+- Delete the IAM roles used by Lambda functions.
