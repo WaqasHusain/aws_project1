@@ -1,0 +1,5 @@
+Steps to be Performed
+1# Create a REST API in API Gateway
+2# Create and test the /subscribe Endpoint
+3# Create and test the /create-event Endpoint
+4# Deploy the API
